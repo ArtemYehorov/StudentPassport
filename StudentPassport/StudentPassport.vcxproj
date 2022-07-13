@@ -24,6 +24,7 @@
     <ProjectGuid>{37df5680-94db-4a29-991f-0f9ecd59c675}</ProjectGuid>
     <RootNamespace>StudentPassport</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Student</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
