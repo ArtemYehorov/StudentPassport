@@ -3,7 +3,7 @@
 
 class Aspirant : public Student
 {
-private:
+protected:
 	string WorkTheme;
 public:
 	Aspirant();

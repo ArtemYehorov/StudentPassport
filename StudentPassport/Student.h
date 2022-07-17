@@ -4,7 +4,7 @@ using namespace std;
 
 class Student
 {
-private:
+protected:
 	unsigned short Age;
 	string Firstname;
 	string Surname;

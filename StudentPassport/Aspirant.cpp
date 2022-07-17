@@ -1,18 +1,9 @@
 #include "Aspirant.h"
 
-    Aspirant::Aspirant()
-	{
-		SetAge(18);
-		SetFirstName("Anatoliy");
-		SetSurName("Pupkin");
-		SetWorkTheme("AbobiInTheWord");
-	}
+    Aspirant::Aspirant() : Aspirant(18 ,"Anatoliy", "Pupkin", "AbobiInTheWord") {}
 
-	Aspirant::Aspirant(unsigned short age, string firstname, string surname, string theme)
+	Aspirant::Aspirant(unsigned short age, string firstname, string surname, string theme) : Student(age, firstname, surname)
 	{
-		SetAge(age);
-		SetFirstName(firstname);
-		SetSurName(surname);
 		SetWorkTheme(theme);
 	}
 	string Aspirant::GetWorkTheme() const

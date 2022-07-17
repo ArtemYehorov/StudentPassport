@@ -9,5 +9,7 @@ int main()
 	a.Print();
 	Aspirant b(23, "Aboba", "Abubus","Programming in C++");
 	b.Print();
+	Aspirant e;
+	e.Print();
 
 }

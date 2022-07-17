@@ -1,11 +1,6 @@
 #include"Classes.h"
 
-	Student::Student()
-	{
-		Age = 18;
-		Firstname = "Anatoliy";
-		Surname = "Pupkin";
-	}
+	Student::Student() : Student(18, "Anatoliy", "Pupkin") {}
 
 	Student::Student(unsigned short age, string firstname, string surname)
 	{
